@@ -1,19 +1,59 @@
 plugins {
-    id 'java'
+    id 'java-library'
+    id 'io.qameta.allure' version '2.10.0'
 }
-
-group 'org.example'
-version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+def allureVersion = "2.19.0",
+    slf4jVersion = "1.7.36"
+
+allure {
+    report {
+        version.set(allureVersion)
+    }
+    adapter { // отвечает за появление папочки build/allure-results
+        aspectjWeaver.set(true) //обработка аннотации @Step
+        frameworks {
+            junit5 { //название фреймворка
+                adapterVersion.set(allureVersion) //версия интеграции фреймворка и Allure
+            }
+        }
+    }
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
 }
 
 test {
-    useJUnitPlatform()
+    useJUnitPlatform {}
 }
+
+task jet_ui(type: Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform {
+        includeTags("jet")
+    }
+}
+
+//task democa_facker(type: Test) {
+//    systemProperties(System.getProperties())
+//    useJUnitPlatform {
+//        includeTags("facker")
+//    }
+//}
+
+dependencies {
+    testImplementation("com.codeborne:selenide:6.11.2",
+            "io.qameta.allure:allure-selenide:$allureVersion",
+            "com.github.javafaker:javafaker:1.0.2",
+            "org.junit.jupiter:junit-jupiter:5.9.1",
+            "org.slf4j:slf4j-simple:$slf4jVersion",
+            "org.selenide:selenide-selenoid:2.3.5"
+
+    )
+}
+
