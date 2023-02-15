@@ -85,7 +85,7 @@ public class WebTests extends TestBase {
         });
     }
 
-    @Tag("Jet")
+    @Tag("jet")
     @DisplayName("Переход на главную страницу при клике на лого сайта")
     @Owner("RuslanG")
     @Test
