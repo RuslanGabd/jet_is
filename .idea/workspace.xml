@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="3">
-      <change afterPath="$PROJECT_DIR$/images/gif/test3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gif/test4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Allure.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Gradle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/IDEA.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/JUnit5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Jenkins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Selenide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Selenoid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/graphs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/overview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/telegram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/tests.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screens/graphs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/graphs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screens/overview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/overview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screens/telegram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/telegram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screens/tests.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/tests.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676492310375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3">
+      <created>1676559325573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676559325574</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

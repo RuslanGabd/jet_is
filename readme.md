@@ -1,5 +1,5 @@
-# :stars: Проект по автоматизации тестирования для Skyeng
-<a target="_blank" href="https://skyeng.ru">Веб сайт Skyeng</a>
+# :stars: Проект по автоматизации тестирования для Инфосистемы Джет
+<a target="_blank" href="https://jet.su">Веб сайт Инфосистемы Джет</a>
 ## :card_file_box: Содержание
 - [Технологии и инструменты](#bookmark-технологии-и-инструменты)
 - [Запуск из терминала](#bookmark-запуск-тестов-из-терминала)
@@ -25,13 +25,13 @@
 ## :bookmark: Запуск тестов из терминала
 Локальный запуск:
 ```
-gradle clean ui_test
+gradle clean jet_test
 ```
 
 Удаленный запуск:
 ```
 clean
-ui_test
+jet_test
 -Dbrowser=${BROWSER}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
@@ -82,4 +82,9 @@ ui_test
 ### Тест #4 После прохождения теста предлагаются подходящие курсы
 <p align="center">
   <img title="Selenoid video for test4" src="images/gif/test4.gif">
+</p>
+## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Selenoid. Пример прогона тестов. <a target="_blank" href="https://selenoid.autotests.cloud/gif/example.gif"> </a>
+
+<p align="center">
+<img title="Selenoid Video" src="images/gif/example.gif" width="250" height="153"  alt="video"> 
 </p>
