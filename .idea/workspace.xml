@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="2" />
+    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="3">
+      <change afterPath="$PROJECT_DIR$/images/gif/test3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gif/test4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Allure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Gradle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/IDEA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/JUnit5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Jenkins.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Selenide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Selenoid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/graphs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/overview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/telegram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/tests.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,11 +58,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/gmail/IdeaProjects/jet_2",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gmail\IdeaProjects\jet_2" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.WebTests.checkTopMenu">
     <configuration name="WebTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -128,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676491720412</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3">
+      <created>1676492310375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676492310375</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>
