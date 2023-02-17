@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="6">
-      <change beforePath="$PROJECT_DIR$/images/gif/test3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gif/test4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/Github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/Github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/Gradle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/Gradle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/IDEA.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/IDEA.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/Java.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/Java.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/Jenkins.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/Jenkins.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/Selenoid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/Selenoid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gif/example.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Allure_TO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos/Jira.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureDashboard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureLaunches.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/AllureTC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screens/jira.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676648460676</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="6">
+      <created>1676649198544</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676649198544</updated>
+    </task>
+    <task id="LOCAL-00011" summary="6">
+      <created>1676649255787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676649255795</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
