@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="6">
-      <change afterPath="$PROJECT_DIR$/images/gif/example.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Allure_TO.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logos/Jira.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureDashboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureLaunches.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/AllureTC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screens/jira.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screens/overview.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676649255795</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="6">
+      <created>1676649363768</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676649363768</updated>
+    </task>
+    <task id="LOCAL-00013" summary="6">
+      <created>1676649378622</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676649378622</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

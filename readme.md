@@ -1,25 +1,29 @@
 # :stars: Проект по автоматизации тестирования для Инфосистемы Джет
 <a target="_blank" href="https://jet.su">Веб сайт Инфосистемы Джет</a>
 ## :card_file_box: Содержание
-- [Технологии и инструменты](#bookmark-технологии-и-инструменты)
-- [Запуск из терминала](#bookmark-запуск-тестов-из-терминала)
-- [Сборка в Jenkins](#bookmark--jenkins--job-)
-- [Allure отчет](#bookmark--отчет-в-allure-report)
-- [Уведомление в Telegram](#bookmark--уведомление-в-telegram)
-- [Видео прохождения тестов](#bookmark--видео-прохождения-некоторых-тестов)
+- [Стек технологий](#earth_africa-Стек-технологий)
+- [Реализованные проверки](#earth_africa-Реализованные-проверки)
+- [Сборка в Jenkins](#earth_africa-Jenkins-job)
+- [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
+- [Allure отчет](#earth_africa-Allure-отчет)
+- [Интеграция с Allure TestOps](#earth_africa-Интеграция-c-Allure-TestOps)
+- [Интеграция с Jira](#earth_africa-Интеграция-c-Jira)
+- [Уведомления в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
+- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
 ## :bookmark: Технологии и инструменты
 <p align="center">
-<a href="https://www.jetbrains.com/idea/"><img src="images/logos/IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
-<a href="https://www.java.com/"><img src="images/logos/Java.svg" width="50" height="50"  alt="Java"/></a>
-<a href="https://github.com/"><img src="images/logos/Github.svg" width="50" height="50"  alt="Github"/></a>
-<a href="https://junit.org/junit5/"><img src="images/logos/JUnit5.svg" width="50" height="50"  alt="JUnit5"/></a>
-<a href="https://gradle.org/"><img src="images/logos/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>
-<a href="https://selenide.org/"><img src="images/logos/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>
-<a href="https://aerokube.com/selenoid/"><img src="images/logos/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
-<a href="https://github.com/allure-framework/allure2"><img src="images/logos/Allure.svg" width="50" height="50"  alt="Allure"/></a>
-<a href="https://www.jenkins.io/"><img src="images/logos/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
-<a><img src="images/logos/Telegram.svg" width="50" height="50"  alt="Telegram"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
+<a href="https://www.java.com/"><img src="images/logo/Java.svg" width="50" height="50"  alt="Java"/></a>
+<a href="https://github.com/"><img src="images/logo/GitHub.svg" width="50" height="50"  alt="Github"/></a>
+<a href="https://junit.org/junit5/"><img src="images/logo/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a>
+<a href="https://gradle.org/"><img src="images/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>
+<a href="https://selenide.org/"><img src="images/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>
+<a href="https://aerokube.com/selenoid/"><img src="images/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
+<a href="https://github.com/allure-framework/allure2"><img src="images/logo/Allure.svg" width="50" height="50"  alt="Allure"/></a>
+<a href="https://https://qameta.io/"><img src="images/logo/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/></a>
+<a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
+<a href="https://https://telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/></a>
 </p>
 
 ## :bookmark: Запуск тестов из терминала
