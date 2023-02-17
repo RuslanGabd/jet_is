@@ -6,14 +6,20 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 import static io.qameta.allure.Allure.step;
 
 public class WebTests extends TestBase {
+    static Stream<List<String>> headerTopMenu() {
+        return Stream.of(List.of("Услуги и решения", "Проекты", "Пресс-центр", "О нас", "Карьера", "Контакты")
+        );
+    }
 
     List<String> listForCareer = Arrays.asList("ВАКАНСИИ И СТАЖИРОВКИ", "КАРЬЕРА В КОМПАНИИ", "ПОЧЕМУ МЫ, НАША ЖИЗНЬ", "ОТЗЫВЫ");
 
@@ -36,9 +42,9 @@ public class WebTests extends TestBase {
 
     @Tag("jet")
     @Owner("RuslanG")
-    @ValueSource(strings = {"Услуги и решения", "Проекты", "Пресс-центр", "О нас", "Карьера", "Контакты"})
+    @MethodSource("headerTopMenu")
     @ParameterizedTest(name = "В верхнем меню отображаются кнопки {0}")
-    void checkTopMenu(String buttons) {
+    void checkTopMenu(List<String> buttons) {
         step("Перейти на главную страницу", () -> {
             mainPageJet.openMainPageJet();
         });

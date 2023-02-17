@@ -43,7 +43,7 @@ public class MainPageJet {
 
 
 
-    public MainPageJet verifyHeaderMenuItems(String buttons) {
+    public MainPageJet verifyHeaderMenuItems(List<String> buttons) {
         $(".main-nav__post-wrapper").$$("li.main-nav__item").shouldHave(texts(buttons));
         return this;
     }

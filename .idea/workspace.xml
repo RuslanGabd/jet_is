@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="7">
+    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jet/MainPageJet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/MainPageJet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/jet/WebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/WebTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <recent name="C:\Users\gmail\IdeaProjects\jet_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WebTests.goMainPageByLogo">
+  <component name="RunManager" selected="Gradle.WebTests.checkTopMenu">
     <configuration name="WebTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.WebTests.goMainPageByLogo" />
         <item itemvalue="Gradle.WebTests.checkTopMenu" />
+        <item itemvalue="Gradle.WebTests.goMainPageByLogo" />
         <item itemvalue="Gradle.WebTests" />
       </list>
     </recent_temporary>
@@ -268,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676659039424</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="8">
+      <created>1676659706748</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676659706748</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +296,7 @@
     <MESSAGE value="5" />
     <MESSAGE value="6" />
     <MESSAGE value="7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
   </component>
 </project>
