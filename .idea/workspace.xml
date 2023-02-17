@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="3">
+    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="43">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/screens/graphs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/graphs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/screens/overview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/overview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/screens/telegram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/telegram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/screens/tests.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/screens/tests.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jet/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jet/WebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/WebTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jet/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/helpers/Attach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676559325574</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="43">
+      <created>1676575287146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676575287148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +178,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="43" />
+    <option name="LAST_COMMIT_MESSAGE" value="43" />
   </component>
 </project>

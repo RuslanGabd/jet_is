@@ -3,6 +3,7 @@ package jet.helpers;
 
 
 import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -44,6 +45,7 @@ public class Attach {
                 + getVideoUrl()
                 + "' type='video/mp4'></video></body></html>";
     }
+
 
     public static URL getVideoUrl() {
         String videoUrl = "https://selenoid.autotests.cloud/video/" + sessionId() + ".mp4";

@@ -33,6 +33,7 @@ public abstract class TestBase {
     public void helpersConfig() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Selenide.clearBrowserCookies();
+
     }
 
     @AfterEach
