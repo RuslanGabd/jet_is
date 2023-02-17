@@ -37,52 +37,47 @@ jet_test
 -DbrowserSize=${BROWSER_SIZE}
 -Dremote=${REMOTE}
 ```
-## :bookmark: <img src="images/logos/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/pols-skyeng-ui/"> job </a>
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure отчет <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/allure/"></a>
 
-Параметры сборки в Jenkins:
-
-- <code>BROWSER</code> браузер, по умолчанию chrome
-
-- <code>BROWSER_VERSION</code> версия браузера, по умолчанию 100.0
-
-- <code>BROWSER_SIZE</code> размер окна браузера, по умолчанию 1920x1080
-
-- <code>REMOTE</code> адрес удаленного сервера
-
-## :bookmark: <img src="images/logos/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/pols-skyeng-ui/4/allure/">Allure report</a>
-
-### Обзор сборки
+## ⛅: Основной отчет
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/overview.jpg">
+<img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
 </p>
 
-### Тесты
+## 🧪: Пример тест кейса
 <p align="center">
-<img title="Allure Suites" src="images/screens/tests.jpg">
+<img title="AllureSuite" src="images/screens/AllureSuite.jpg">
 </p>
 
-### :bar_chart: Графики
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure_TO"/></a> Интеграция с Allure TestOps <a target="_blank" href="https://allure.autotests.cloud/project/1858/dashboards"></a>
+
+## :pinching_hand:: Пример ручного тест-кейса
 <p align="center">
-<img title="Allure Graphs" src="images/screens/graphs.jpg">
+<img title="AllureTC" src="images/screens/AllureTC.jpg">
 </p>
 
-## :bookmark: <img src="images/logos/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram
-
+## :bar_chart:: Доска
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/telegram.jpg">
+<img title="AllureDashboard" src="images/screens/AllureDashboard.jpg">
 </p>
 
-## :bookmark: <img src="images/logos/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Видео прохождения некоторых тестов
-
-### Тест #3 По ссылке Пройти тест осуществляется переход к тесту на подбор курса
+## :runner:: Прогоны
 <p align="center">
-  <img title="Selenoid video for test3" src="images/gif/test3.gif">
+<img title="Allure Tests" src="images/screens/AllureLaunches.jpg">
 </p>
 
-### Тест #4 После прохождения теста предлагаются подходящие курсы
+## <img src="images/logo/Jira.svg" width="25" height="25"  alt="Jira"/></a> Интеграция с Jira <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-519"></a>
+
 <p align="center">
-  <img title="Selenoid video for test4" src="images/gif/test4.gif">
+<img title="Jira" src="images/screens/Jira.jpg">
 </p>
+
+## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Telegram"/></a> Уведомления в телеграм с использованием бота
+
+<p align="center">
+<img title="telegram" src="images/screens/telegram.jpg">
+</p>
+
 ## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Selenoid. Пример прогона тестов. <a target="_blank" href="https://selenoid.autotests.cloud/gif/example.gif"> </a>
 
 <p align="center">
