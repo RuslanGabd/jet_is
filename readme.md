@@ -69,7 +69,7 @@ jet_test
 ## <img src="images/logo/Jira.svg" width="25" height="25"  alt="Jira"/></a> Интеграция с Jira <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-519"></a>
 
 <p align="center">
-<img title="Jira" src="images/screens/Jira.jpg">
+<img title="Jira" src="images/screens/jira.jpg">
 </p>
 
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Telegram"/></a> Уведомления в телеграм с использованием бота
