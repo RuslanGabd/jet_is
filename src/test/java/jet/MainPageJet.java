@@ -1,41 +1,30 @@
 package jet;
 
-import org.junit.jupiter.params.provider.Arguments;
-
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
-
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class MainPageJet {
-    private final String TEXT = "Комплексное предложение по импортозамещению";
-    private final String TEXT2 = "Оставить заявку";
 
-    public MainPageJet openmainPageJet() {
+
+    public MainPageJet openMainPageJet() {
         open("https://jet.su/");
-        $(".intro__title-wrap").shouldHave(text(TEXT));
         return this;
     }
 
-    public MainPageJet pageContacts() {
-        $(".main-nav__wrapper").$(byText("Контакты")).click();
+    public MainPageJet openPage(String page) {
+        $(".main-nav__wrapper").$(byText(page)).click();
         return this;
     }
 
-    public MainPageJet verifyButtons() {
-        $("button.btn").shouldHave(text(TEXT2));
+    public MainPageJet verifyButtons(String btn) {
+        $("button.btn").shouldHave(text(btn));
         return this;
     }
 
 
-    public MainPageJet pageCareer() {
-        $(".main-nav__wrapper").$(byText("Карьера")).click();
-        return this;
-    }
 
     public MainPageJet verifyPageCareer(List<String> list) {
         $("ul.second-nav__list").$$("li.second-nav__item").contains(list);
@@ -47,8 +36,8 @@ public class MainPageJet {
         return this;
     }
 
-    public MainPageJet verifyMainPage() {
-        $(".intro__title-wrap").shouldHave(text(TEXT));
+    public MainPageJet verifyPage(String text) {
+        $(".intro__title-wrap").shouldHave(text(text));
         return this;
     }
 

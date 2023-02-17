@@ -8,6 +8,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,10 +18,7 @@ import static io.qameta.allure.Allure.step;
 
 public class WebTests extends TestBase {
 
-    static Stream<Arguments> headerPressCenter() {
-        return Stream.of(Arguments.of(List.of("Услуги и решения", "Проекты",
-                "Пресс-центр", "О нас", "Карьера", "Контакты")));
-   }
+    String headerTopMenu = ("Услуги и решения, Проекты, Пресс-центр, О нас, Карьера, Контакты");
 
     List<String> listForCareer = Arrays.asList("ВАКАНСИИ И СТАЖИРОВКИ", "КАРЬЕРА В КОМПАНИИ", "ПОЧЕМУ МЫ, НАША ЖИЗНЬ", "ОТЗЫВЫ");
 
@@ -31,23 +29,23 @@ public class WebTests extends TestBase {
     void companyDetails() {
 
         step("Открытие главной страницы", () -> {
-            mainPageJet.openmainPageJet();
+            mainPageJet.openMainPageJet();
         });
         step("Открытие страницы с контактами", () -> {
-            mainPageJet.pageContacts();
+            mainPageJet.openPage("Контакты");
         });
         step("Проверка, наличие кнопки 'Оставить заявку'", () -> {
-            mainPageJet.verifyButtons();
+            mainPageJet.verifyButtons("Оставить заявку");
         });
     }
 
     @Tag("jet")
     @Owner("RuslanG")
-    @MethodSource("headerPressCenter")
+    @ValueSource(strings = "headerPressCenter")
     @ParameterizedTest(name = "В верхнем меню отображаются кнопки {0}")
     void checkTopMenu(List<String> buttons) {
         step("Перейти на главную страницу", () -> {
-            mainPageJet.openmainPageJet();
+            mainPageJet.openMainPageJet();
         });
         step("Проверить, что в верхнем меню есть кнопки {0}", () -> {
             mainPageJet.verifyHeaderMenuItems(buttons);
@@ -60,10 +58,10 @@ public class WebTests extends TestBase {
     @Test
     void carrierJet() {
         step("Открытие главной страницы", () -> {
-            mainPageJet.openmainPageJet();
+            mainPageJet.openMainPageJet();
         });
         step("Открытие страницы 'Карьера'", () -> {
-            mainPageJet.pageCareer();
+            mainPageJet.openPage("Карьера");
         });
         step("Проверка, что страница содержит меню на 5 разделов страницы", () -> {
             mainPageJet.verifyPageCareer(listForCareer);
@@ -75,7 +73,7 @@ public class WebTests extends TestBase {
     @ParameterizedTest(name = "В разделе {0} есть строка {1}")
     public void checkPartNews(String menuItem, String productForm) {
         step("Перейти на главную страницу", () -> {
-            mainPageJet.openmainPageJet();
+            mainPageJet.openMainPageJet();
         });
         step("Навести курсор на раздел {0}", () -> {
             mainPageJet.hoverMenuItem(menuItem);
@@ -91,16 +89,16 @@ public class WebTests extends TestBase {
     @Test
     void goMainPageByLogo() {
         step("Открытие главной страницу", () -> {
-            mainPageJet.openmainPageJet();
+            mainPageJet.openMainPageJet();
         });
         step("Открытие страницы с реквизитами", () -> {
-            mainPageJet.pageContacts();
+            mainPageJet.openPage("Контакты");
         });
         step("Нажатие на логотип сайта", () -> {
             mainPageJet.logoSite();
         });
         step("Проверка, что переход осуществился на главную страницу", () -> {
-            mainPageJet.verifyMainPage();
+            mainPageJet.verifyPage("Комплексное предложение по импортозамещению");
         });
 
     }
