@@ -44,7 +44,6 @@ public class WebTests extends TestBase {
     @Tag("jet")
     @Owner("RuslanG")
     @MethodSource("headerPressCenter")
-    @DisplayName("В верхнем меню отображаются кнопки {0}")
     @ParameterizedTest(name = "В верхнем меню отображаются кнопки {0}")
     void checkTopMenu(List<String> buttons) {
         step("Перейти на главную страницу", () -> {
@@ -73,7 +72,6 @@ public class WebTests extends TestBase {
 
     @Tag("jet")
     @CsvSource({"Пресс-центр, Новости"})
-    @DisplayName("В разделе {0} есть строка {1}")
     @ParameterizedTest(name = "В разделе {0} есть строка {1}")
     public void checkPartNews(String menuItem, String productForm) {
         step("Перейти на главную страницу", () -> {
