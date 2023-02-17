@@ -1,8 +1,7 @@
 # :stars: Проект по автоматизации тестирования для Инфосистемы Джет
 <a target="_blank" href="https://jet.su">Веб сайт Инфосистемы Джет</a>
 ## :card_file_box: Содержание
-- [Стек технологий](#earth_africa-Стек-технологий)
-- [Реализованные проверки](#earth_africa-Реализованные-проверки)
+- [Технологии и инструменты](#earth_africa-Стек-технологий)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
@@ -25,6 +24,17 @@
 <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 <a href="https://https://telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/></a>
 </p>
+
+## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка <a target="_blank" href="https://jenkins.autotests.cloud/job/C17_ruslan_g_r_unit_14/"> Jenkins </a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"><img src="images/screens/Jenkins.jpg" alt="Jenkins1"/></a>
+</p>
+
+## :hammer_and_wrench:: Параметры сборки в Jenkins:
+- remote (адрес удаленного сервера)
+- browserSize (размер окна браузера, по умолчанию 1920x1080)
+- browserVersion (версия браузера, по умолчанию 100.0)
+- browser (браузер, по умолчанию chrome)
 
 ## :bookmark: Запуск тестов из терминала
 Локальный запуск:
