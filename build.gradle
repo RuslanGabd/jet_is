@@ -32,7 +32,7 @@ test {
     useJUnitPlatform {}
 }
 
-task jet_ui(type: Test) {
+task jet_test(type: Test) {
     systemProperties(System.getProperties())
     useJUnitPlatform {
         includeTags("jet")

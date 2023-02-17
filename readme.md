@@ -46,10 +46,10 @@ gradle clean jet_test
 ```
 clean
 jet_test
--Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
--DbrowserSize=${BROWSER_SIZE}
--Dremote=${REMOTE}
+"-Dremote=${remote_url}"
+"-DbrowserName=${browserName}"
+"-DbrowserVersion=${browserVersion}"
+"-DbrowserSize =${displaySize}"
 ```
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure отчет <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/allure/"></a>
 

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="6">
+    <list default="true" id="5d085c34-914e-4f3a-aaaa-0ebe7cc70987" name="Changes" comment="7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jet/MainPageJet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/MainPageJet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jet/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/jet/WebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jet/WebTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676650320075</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="7">
+      <created>1676659039424</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676659039424</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +289,7 @@
     <MESSAGE value="43" />
     <MESSAGE value="5" />
     <MESSAGE value="6" />
-    <option name="LAST_COMMIT_MESSAGE" value="6" />
+    <MESSAGE value="7" />
+    <option name="LAST_COMMIT_MESSAGE" value="7" />
   </component>
 </project>
