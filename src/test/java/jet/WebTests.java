@@ -35,8 +35,8 @@ public class WebTests extends TestBase {
         step("Открытие страницы с контактами", () -> {
             mainPageJet.openPage("Контакты");
         });
-        step("Проверка, наличие кнопки 'Оставить заявку'", () -> {
-            mainPageJet.verifyButtons("Оставить заявку");
+        step("Проверка, наличие кнопки 'СВЯЖИТЕСЬ С НАМИ'", () -> {
+            mainPageJet.verifyButtons("СВЯЖИТЕСЬ С НАМИ");
         });
     }
 
