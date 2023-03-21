@@ -1,5 +1,5 @@
 # :stars: Проект по автоматизации тестирования для 
-<a target="_blank" href="https://jet.su">Веб сайт Инфосистемы Джет</a>
+<a target="_blank" href="https://jet.su">Веб сайт </a>
 ## :card_file_box: Содержание
 - [Технологии и инструменты](#earth_africa-Стек-технологий)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
